@@ -12,7 +12,7 @@ function Header(props){
   }
   return (
     <header className="header">
-      <a href="#"><img src={logo} alt="логотип" className="header__logo" /></a>
+      <a href="/"><img src={logo} alt="логотип" className="header__logo" /></a>
       <div className="header__rigth-part">
       {props.loggedIn ?
         (

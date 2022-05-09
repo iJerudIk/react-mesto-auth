@@ -2,7 +2,6 @@ import React from 'react';
 import Card from './Card';
 import rectangle from '../../images/rectangle.svg';
 
-import { api } from '../../utils/Api.js';
 import { CurrentUserContext } from '../../contexts/CurrentUserContext.js';
 
 function Main(props){

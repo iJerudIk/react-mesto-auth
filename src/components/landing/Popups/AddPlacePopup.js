@@ -1,8 +1,6 @@
 import React from 'react';
 import PopupWithForm from './PopupWithForm';
 
-import { CurrentUserContext } from '../../../contexts/CurrentUserContext.js';
-
 function AddPlacePopup(props) {
   const titleRef = React.useRef();
   const linkRef = React.useRef();

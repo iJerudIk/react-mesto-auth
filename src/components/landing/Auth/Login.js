@@ -1,5 +1,4 @@
 import React from 'react';
-import * as auth from '../../../utils/auth.js';
 
 function Login(props){
   const email = React.useRef();
